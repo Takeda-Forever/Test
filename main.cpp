@@ -6,7 +6,7 @@ int main(int argc, char** argv)
   std::string password;
   if(argc < 3)
   {
-    std::cerr << "Invalid params!" << 
+    std::cerr << "Invalid params!\n" << 
         "Pls use like this: " << argv[0] << " <username> <password>\n"; 
     return 1;
   }

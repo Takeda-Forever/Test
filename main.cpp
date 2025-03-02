@@ -10,11 +10,13 @@ int main(int argc, char** argv)
         "Pls use like this: " << argv[0] << " <username> <password>\n"; 
     return 1;
   }
-  if(!username.empty())
+  username = argv[1];
+  password = argv[2];
+  if(username.empty())
   {
     return 1;
   }
-  if(!password.empty())
+  if(password.empty())
   {
     return 1;
   } 

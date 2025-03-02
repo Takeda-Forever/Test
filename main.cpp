@@ -17,9 +17,9 @@ int main(int argc, char** argv)
   if(password.empty())
   {
     return 1;
-  }
-  std::cout << "Username: << username << std::endl;
-  std::cout << "Password: << password << std::endl;
+  } 
+  std::cout << "Username: " << username << std::endl;
+  std::cout << "Password: " << password << std::endl;
     
   return 0;
 }

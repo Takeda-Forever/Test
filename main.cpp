@@ -2,8 +2,8 @@
 
 int main(int argc, char** argv)
 {
-  std::string username{};
-  std::string password{};
+  std::string username;
+  std::string password;
   if(argc < 3)
   {
     std::cerr << "Invalid params!" << 
